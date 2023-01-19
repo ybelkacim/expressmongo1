@@ -1,0 +1,21 @@
+POST http://127.0.0.1:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "user4",
+    "subscribedToChannel": "user1 is valid"
+}
+
+###
+
+GET http://127.0.0.1:3000/subscribers
+
+###
+
+GET http://127.0.0.1:3000/subscribers/63c8f9339bb72fb94e9be8ab
+
+
+
+####
+
+DELETE  http://127.0.0.1:3000/subscribers/63c84d147e4d6ae6b1d75e3d
